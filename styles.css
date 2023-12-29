@@ -1,2 +1,27 @@
+ .holder {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 10px; 
+	   height: 100px;
+    }
 
-/* Your CSS Code here. */
+    .item {
+        width: 120px; /* Set a fixed width for the items, adjust as needed */
+        height: 100px; /* Set a fixed height for the items, adjust as needed */
+        background-color: #ccc;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+.green {
+	background-color:green;
+}
+.red {
+	background-color:red;
+}
+
+.blue {
+	background-color:blue;
+}
